@@ -160,6 +160,9 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+/cypress/videos/
+/cypress/screenshots/
+
 # yarn v2
 .yarn/cache
 .yarn/unplugged
@@ -175,5 +178,10 @@ dist
 
 # SvelteKit build / generate output
 .svelte-kit
+
+pnpm-debug.log*
+node_modules
+dist-ssr
+*.local
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,node,dotenv

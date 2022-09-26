@@ -1,0 +1,35 @@
+{
+  "name": "pwa-client",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "node_modules/.bin/vite",
+    "build": "node_modules/.bin/run-p type-check build-only",
+    "preview": "node_modules/.bin/vite preview --port 4173",
+    "build-only": "node_modules/.bin/vite build",
+    "type-check": "node_modules/.bin/vue-tsc --noEmit",
+    "lint": "node_modules/.bin/eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "node_modules/.bin/prettier --write ."
+  },
+  "dependencies": {
+    "pinia": "^2.0.16",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@types/node": "^16.11.61",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "@vue/tsconfig": "^0.1.3",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.5.1",
+    "typescript": "~4.7.4",
+    "postcss-import": "14.0.2",
+    "vite": "^3.0.1",
+    "vite-plugin-pwa": "^0.13.1",
+    "vue-tsc": "^0.38.8"
+  }
+}
