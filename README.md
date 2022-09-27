@@ -27,3 +27,7 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## Resources
+
+- [vite-plugin-pwa](https://github.com/vite-pwa/vite-plugin-pwa)
